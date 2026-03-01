@@ -42,4 +42,15 @@ public class Cliente {
     public String gettelefono(){
         return this.telefono;
     }
+    
+    public void mostrarDatosClientes(){
+        System.out.println("Nombre del cliente: " + this.nombre + "\n" +
+                "ID : " + this.identificacion + "\n" +
+                "No.telefono: " +this.telefono + "\n" + 
+                "direccion: " + this.direccion);
+    }    
 }
+
+
+
+
