@@ -57,8 +57,8 @@ public class Mascota {
 
     public void mostrarDatosMascota(){
         System.out.println("Nombre de la mascota: " + this.nombre + "\n"+
-                "edad: " + this.edad + "Especie: " + this.especie+ "raza: " +this.raza + "\n" +
-                        "peso: " + this.peso);
+                 "Especie: " + this.especie+ "raza: " +this.raza + "\n" +
+                 "edad: " + this.edad + "peso: " + this.peso);
     }
 
 }
