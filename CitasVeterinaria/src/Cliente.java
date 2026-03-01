@@ -49,7 +49,10 @@ public class Cliente {
                 "No.telefono: " +this.telefono + "\n" + 
                 "direccion: " + this.direccion);
     }    
+    
+    
 }
+
 
 
 
