@@ -43,7 +43,8 @@ public class Cliente {
         return this.telefono;
     }
     
-    public void mostrarDatosClientes(){
+    public void mostrarDatos(){
+        System.out.println("-------------OBJETO CLIENTE-----------\n");
         System.out.println("Nombre del cliente: " + this.nombre + "\n" +
                 "ID : " + this.identificacion + "\n" +
                 "No.telefono: " +this.telefono + "\n" + 

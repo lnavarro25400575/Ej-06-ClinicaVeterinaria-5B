@@ -29,7 +29,7 @@ public class Cita {
         System.out.println("-----Resumen de Cita-------");
         cliente.mostrarDatos();
         mascota.mostrarDatos();
-        System.out.print("fecha: " +this.fecha + "| Hora: " +this.hora);
+        System.out.print("fecha: " +this.fecha + "| Hora: " +this.hora + "\n");
         System.out.println("----------------------------");
     }
     
